@@ -5,9 +5,188 @@
     {"id": "1_9-tdi", "name": "1.9 TDI"},
     {"id": "bbatc", "name": "BBATC"},
     {"id": "hugo-toom", "name": "Hugo Toom"},
-    {"id": "larry-bird", "name": "Larry Bird?"},
+    {"id": "larry-bird", "name": "Larry Bird"},
     {"id": "robotina-robotica", "name": "Robotina Robotica"},
     {"id": "zz", "name": "ZZ"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "larry-bird", "name": "Larry Bird"},
+      {"id": "bbatc", "name": "BBATC"},
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      {"id": "zz", "name": "ZZ"},
+      {"id": "hugo-toom", "name": "Hugo Toom"}
+    ],
+    "roundCount": 3,
+    "games": [
+      {
+        "id": 1,
+        "robots": [
+          {"id": "larry-bird", "name": "Larry Bird"},
+          {"id": "bbatc", "name": "BBATC"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.52, 0.8],
+          [-1.52, -0.8],
+          [0.91, -1.04],
+          [-0.91, 1.04],
+          [-0.65, -0.04],
+          [0.65, 0.04],
+          [-0.22, -1.12],
+          [0.22, 1.12],
+          [-0.28, -0.2],
+          [0.28, 0.2]
+        ]
+      },
+      {
+        "id": 2,
+        "robots": [
+          {"id": "1_9-tdi", "name": "1.9 TDI"},
+          {"id": "robotina-robotica", "name": "Robotina Robotica"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.44, -0.37],
+          [-0.44, 0.37],
+          [0.66, -0.47],
+          [-0.66, 0.47],
+          [-1.16, -1.28],
+          [1.16, 1.28],
+          [0.24, -0.91],
+          [-0.24, 0.91],
+          [-0.09, -1.18],
+          [0.09, 1.18]
+        ]
+      },
+      {
+        "id": 3,
+        "robots": [
+          {"id": "zz", "name": "ZZ"},
+          {"id": "hugo-toom", "name": "Hugo Toom"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.35, -1.31],
+          [-0.35, 1.31],
+          [0.44, -0.7],
+          [-0.44, 0.7],
+          [1.6, 0.49],
+          [-1.6, -0.49],
+          [-1.6, 0.64],
+          [1.6, -0.64],
+          [1.06, 0.36],
+          [-1.06, -0.36]
+        ]
+      }
+    ],
+    "byes": [],
+    "robotScores": [
+      {
+        "robot": {"id": "larry-bird", "name": "Larry Bird"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 1
+      },
+      {
+        "robot": {"id": "bbatc", "name": "BBATC"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 2
+      },
+      {
+        "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 3
+      },
+      {
+        "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 4
+      },
+      {
+        "robot": {"id": "zz", "name": "ZZ"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 5
+      },
+      {
+        "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 6
+      }
+    ],
+    "robotStartingBaskets": {
+      "larry-bird": ["magenta"],
+      "bbatc": ["blue"],
+      "1_9-tdi": ["magenta"],
+      "robotina-robotica": ["blue"],
+      "zz": ["blue"],
+      "hugo-toom": ["magenta"]
+    },
+    "hasEnded": false
+  }
 }
