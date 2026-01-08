@@ -33,11 +33,14 @@
         [
           {"time": 1767897083378, "isValid": true},
           {"time": 1767897088564, "isValid": true},
-          {"time": 1767897094128, "isValid": true}
+          {"time": 1767897094128, "isValid": true},
+          {"time": 1767897113826, "isValid": true}
         ],
         [
           {"time": 1767897085532, "isValid": true},
-          {"time": 1767897094701, "isValid": true}
+          {"time": 1767897094701, "isValid": true},
+          {"time": 1767897105561, "isValid": true},
+          {"time": 1767897122212, "isValid": true}
         ]
       ],
       "fouls": [[], []],
