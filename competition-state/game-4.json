@@ -6,7 +6,7 @@
   ],
   "startingBaskets": ["blue", "magenta"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -41,7 +41,7 @@
       "readyStates": [false, false],
       "baskets": ["magenta", "blue"],
       "hasEnded": true,
-      "isConfirmed": false,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1767896275224, "endTime": 1767896313139},
