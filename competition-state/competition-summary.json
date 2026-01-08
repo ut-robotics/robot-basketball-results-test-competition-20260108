@@ -392,7 +392,9 @@
               [
                 {"time": 1767896457116, "isValid": true},
                 {"time": 1767896463188, "isValid": true},
-                {"time": 1767896472053, "isValid": true}
+                {"time": 1767896472053, "isValid": true},
+                {"time": 1767896497183, "isValid": true},
+                {"time": 1767896505677, "isValid": true}
               ],
               [{"time": 1767896464343, "isValid": true}]
             ],
@@ -401,12 +403,13 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 25896,
+            "duration": 38643,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1767896448370, "endTime": 1767896462730},
-              {"startTime": 1767896465240, "endTime": 1767896476776}
+              {"startTime": 1767896465240, "endTime": 1767896476776},
+              {"startTime": 1767896492936, "endTime": null}
             ]
           }
         ],
@@ -528,7 +531,9 @@
           [
             {"time": 1767896457116, "isValid": true},
             {"time": 1767896463188, "isValid": true},
-            {"time": 1767896472053, "isValid": true}
+            {"time": 1767896472053, "isValid": true},
+            {"time": 1767896497183, "isValid": true},
+            {"time": 1767896505677, "isValid": true}
           ],
           [{"time": 1767896464343, "isValid": true}]
         ],
@@ -537,12 +542,13 @@
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 25896,
+        "duration": 38643,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1767896448370, "endTime": 1767896462730},
-          {"startTime": 1767896465240, "endTime": 1767896476776}
+          {"startTime": 1767896465240, "endTime": 1767896476776},
+          {"startTime": 1767896492936, "endTime": null}
         ]
       }
     ],
