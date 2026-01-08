@@ -24,15 +24,15 @@
       {"id": "hugo-toom", "name": "Hugo Toom"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3],
+    "gameIDs": [1, 2, 3, 4, 5, 6],
     "byes": [],
     "robotStartingBaskets": {
-      "larry-bird": ["magenta"],
-      "bbatc": ["blue"],
-      "1_9-tdi": ["magenta"],
-      "robotina-robotica": ["blue"],
-      "zz": ["blue"],
-      "hugo-toom": ["magenta"]
+      "larry-bird": ["magenta", "blue"],
+      "bbatc": ["blue", "blue"],
+      "1_9-tdi": ["magenta", "blue"],
+      "robotina-robotica": ["blue", "magenta"],
+      "zz": ["blue", "magenta"],
+      "hugo-toom": ["magenta", "magenta"]
     },
     "hasEnded": false
   }
