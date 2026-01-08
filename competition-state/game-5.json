@@ -69,7 +69,7 @@
           {"time": 1767896774853, "isValid": true}
         ]
       ],
-      "fouls": [[], []],
+      "fouls": [[], [{"time": 1767896811365, "isValid": true}]],
       "readyStates": [false, false],
       "baskets": ["blue", "magenta"],
       "hasEnded": false,
