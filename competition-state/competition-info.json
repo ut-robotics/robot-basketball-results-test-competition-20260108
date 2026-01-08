@@ -1,6 +1,13 @@
 {
   "id": "robot-basketball-competition-20260108",
   "name": "Robot Basketball Competition 2026-01-08",
-  "robots": [],
+  "robots": [
+    {"id": "1_9-tdi", "name": "1.9 TDI"},
+    {"id": "bbatc", "name": "BBATC"},
+    {"id": "hugo-toom", "name": "Hugo Toom"},
+    {"id": "larry-bird", "name": "Larry Bird?"},
+    {"id": "robotina-robotica", "name": "Robotina Robotica"},
+    {"id": "zz", "name": "ZZ"}
+  ],
   "tournament": null
 }
