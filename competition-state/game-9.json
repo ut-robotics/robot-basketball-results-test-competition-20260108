@@ -1,0 +1,35 @@
+{
+  "id": 9,
+  "robots": [
+    {"id": "hugo-toom", "name": "Hugo Toom"},
+    {"id": "bbatc", "name": "BBATC"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.6, -1.17],
+    [-1.6, 1.17],
+    [-0.57, -0.35],
+    [0.57, 0.35],
+    [-0.43, -0.08],
+    [0.43, 0.08],
+    [-1.01, -0.9],
+    [1.01, 0.9],
+    [2.12, -0.77],
+    [-2.12, 0.77]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8,
+  "robots": [
+    {"id": "larry-bird", "name": "Larry Bird"},
+    {"id": "1_9-tdi", "name": "1.9 TDI"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.53, -1.23],
+    [-1.53, 1.23],
+    [0.29, 0.64],
+    [-0.29, -0.64],
+    [0.41, 0.03],
+    [-0.41, -0.03],
+    [-1.26, 0.97],
+    [1.26, -0.97],
+    [1.49, -0.9],
+    [-1.49, 0.9]
+  ]
+}
