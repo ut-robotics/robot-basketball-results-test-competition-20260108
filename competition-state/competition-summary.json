@@ -388,16 +388,26 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
-            "fouls": [[], []],
+            "scores": [
+              [
+                {"time": 1767896457116, "isValid": true},
+                {"time": 1767896463188, "isValid": true},
+                {"time": 1767896472053, "isValid": true}
+              ],
+              [{"time": 1767896464343, "isValid": true}]
+            ],
+            "fouls": [[], [{"time": 1767896480865, "isValid": true}]],
             "readyStates": [false, false],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 25896,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [
+              {"startTime": 1767896448370, "endTime": 1767896462730},
+              {"startTime": 1767896465240, "endTime": 1767896476776}
+            ]
           }
         ],
         "status": {"result": "unknown"},
@@ -504,79 +514,51 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 4,
+    "id": 5,
     "robots": [
-      {"id": "larry-bird", "name": "Larry Bird"},
-      {"id": "zz", "name": "ZZ"}
+      {"id": "bbatc", "name": "BBATC"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [
           [
-            {"time": 1767896038736, "isValid": true},
-            {"time": 1767896043684, "isValid": true}
+            {"time": 1767896457116, "isValid": true},
+            {"time": 1767896463188, "isValid": true},
+            {"time": 1767896472053, "isValid": true}
           ],
-          [{"time": 1767896044803, "isValid": true}]
+          [{"time": 1767896464343, "isValid": true}]
         ],
-        "fouls": [
-          [{"time": 1767896088600, "isValid": true}],
-          [
-            {"time": 1767896054777, "isValid": true},
-            {"time": 1767896184190, "isValid": true}
-          ]
-        ],
+        "fouls": [[], [{"time": 1767896480865, "isValid": true}]],
         "readyStates": [false, false],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60030,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 25896,
         "timeLimit": 60000,
-        "winnerIndex": 0,
+        "winnerIndex": -1,
         "runs": [
-          {"startTime": 1767896024639, "endTime": 1767896050784},
-          {"startTime": 1767896078692, "endTime": 1767896083985},
-          {"startTime": 1767896164241, "endTime": 1767896177936},
-          {"startTime": 1767896201160, "endTime": 1767896216057}
-        ]
-      },
-      {
-        "scores": [[{"time": 1767896298369, "isValid": true}], []],
-        "fouls": [[], [{"time": 1767896324846, "isValid": true}]],
-        "readyStates": [false, false],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60065,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1767896275224, "endTime": 1767896313139},
-          {"startTime": 1767896350837, "endTime": 1767896372987}
+          {"startTime": 1767896448370, "endTime": 1767896462730},
+          {"startTime": 1767896465240, "endTime": 1767896476776}
         ]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "larry-bird", "name": "Larry Bird"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-1.09, 0.57],
-      [1.09, -0.57],
-      [0.5, -1.42],
-      [-0.5, 1.42],
-      [2.12, -0.8],
-      [-2.12, 0.8],
-      [-0.49, -0.15],
-      [0.49, 0.15],
-      [-0.04, 1.22],
-      [0.04, -1.22]
+      [-0.82, 0.57],
+      [0.82, -0.57],
+      [1.83, 0.95],
+      [-1.83, -0.95],
+      [-1.55, -1.16],
+      [1.55, 1.16],
+      [1.36, 0.44],
+      [-1.36, -0.44],
+      [0.88, -0.98],
+      [-0.88, 0.98]
     ]
   }
 }
