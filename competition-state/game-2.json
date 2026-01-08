@@ -6,7 +6,7 @@
   ],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -32,14 +32,29 @@
       "runs": [{"startTime": 1767895426903, "endTime": 1767895486960}]
     },
     {
-      "scores": [[], []],
+      "scores": [
+        [
+          {"time": 1767895557256, "isValid": true},
+          {"time": 1767895563362, "isValid": true},
+          {"time": 1767895570291, "isValid": true},
+          {"time": 1767895578421, "isValid": true},
+          {"time": 1767895585834, "isValid": true},
+          {"time": 1767895593439, "isValid": true},
+          {"time": 1767895601753, "isValid": true},
+          {"time": 1767895610386, "isValid": true}
+        ],
+        [
+          {"time": 1767895592814, "isValid": true},
+          {"time": 1767895612126, "isValid": true}
+        ]
+      ],
       "fouls": [[], []],
       "readyStates": [false, false],
       "baskets": ["blue", "magenta"],
-      "hasEnded": false,
-      "isConfirmed": false,
+      "hasEnded": true,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
-      "runs": []
+      "runs": [{"startTime": 1767895549569, "endTime": 1767895609645}]
     }
   ],
   "ballPlacement": [
